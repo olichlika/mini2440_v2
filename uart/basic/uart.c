@@ -1,13 +1,5 @@
 #include "uart.h"
-
-#define GPHCON (*(volatile unsigned int *)0x56000070)
-#define GPHUP (*(volatile unsigned int *)0x56000078)
-
-#define UCON1 (*(volatile unsigned int *)0x50004004)
-#define UBRDIV1 (*(volatile unsigned int *)0x50004028)
-#define ULCON1 (*(volatile unsigned int *)0x50004000)
-#define UTRSTAT1 (*(volatile unsigned int *)0x50004010)
-#define UTXH1 (*(volatile unsigned char *)0x50004020)
+#include "s3c2440.h"
 
 void Init_UART1(){
 	//初始化GPIO
@@ -25,4 +17,9 @@ void Init_UART1(){
 void SendChar(char c){
 	while(!(UTRSTAT1 & (1 << 2)));//发送移位寄存器不为空就等待
 	UTXH1 = c;
-} 
+}
+
+char ReciveChar(){
+	while (!(UTRSTAT1 & (1<<0)));
+	return URXH1;	
+}

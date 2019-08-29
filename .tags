@@ -1,0 +1,421 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADCCON	uart/basic/include/s3c2440.h	367;"	d
+ADCDAT0	uart/basic/include/s3c2440.h	370;"	d
+ADCDAT1	uart/basic/include/s3c2440.h	371;"	d
+ADCDLY	uart/basic/include/s3c2440.h	369;"	d
+ADCTSC	uart/basic/include/s3c2440.h	368;"	d
+ADCUPDN	uart/basic/include/s3c2440.h	372;"	d
+ALMDATE	uart/basic/include/s3c2440.h	355;"	d
+ALMHOUR	uart/basic/include/s3c2440.h	354;"	d
+ALMMIN	uart/basic/include/s3c2440.h	353;"	d
+ALMMON	uart/basic/include/s3c2440.h	356;"	d
+ALMSEC	uart/basic/include/s3c2440.h	352;"	d
+ALMYEAR	uart/basic/include/s3c2440.h	357;"	d
+BANKCON0	uart/basic/include/s3c2440.h	15;"	d
+BANKCON1	uart/basic/include/s3c2440.h	16;"	d
+BANKCON2	uart/basic/include/s3c2440.h	17;"	d
+BANKCON3	uart/basic/include/s3c2440.h	18;"	d
+BANKCON4	uart/basic/include/s3c2440.h	19;"	d
+BANKCON5	uart/basic/include/s3c2440.h	20;"	d
+BANKCON6	uart/basic/include/s3c2440.h	21;"	d
+BANKCON7	uart/basic/include/s3c2440.h	22;"	d
+BANKSIZE	uart/basic/include/s3c2440.h	24;"	d
+BCDDATE	uart/basic/include/s3c2440.h	361;"	d
+BCDDAY	uart/basic/include/s3c2440.h	362;"	d
+BCDHOUR	uart/basic/include/s3c2440.h	360;"	d
+BCDMIN	uart/basic/include/s3c2440.h	359;"	d
+BCDMON	uart/basic/include/s3c2440.h	363;"	d
+BCDSEC	uart/basic/include/s3c2440.h	358;"	d
+BCDYEAR	uart/basic/include/s3c2440.h	364;"	d
+BLUELUT	uart/basic/include/s3c2440.h	121;"	d
+BWSCON	uart/basic/include/s3c2440.h	14;"	d
+C	makefile/c.h	1;"	d
+CAMDIVN	uart/basic/include/s3c2440.h	108;"	d
+CFLAGS	clk/Makefile	/^CFLAGS = -Iinclude$/;"	m
+CFLAGS	clk/no_pll/Makefile	/^CFLAGS = -Iinclude$/;"	m
+CFLAGS	makefile/Makefile	/^CFLAGS = -Werror -Iinclude$/;"	m
+CFLAGS	pointer/Makefile	/^CFLAGS = -m32 -Iinclude$/;"	m
+CFLAGS	uart/basic/Makefile	/^CFLAGS = -Iinclude$/;"	m
+CICOCBSA1	uart/basic/include/s3c2440.h	156;"	d
+CICOCBSA2	uart/basic/include/s3c2440.h	157;"	d
+CICOCBSA3	uart/basic/include/s3c2440.h	158;"	d
+CICOCBSA4	uart/basic/include/s3c2440.h	159;"	d
+CICOCRSA1	uart/basic/include/s3c2440.h	160;"	d
+CICOCRSA2	uart/basic/include/s3c2440.h	161;"	d
+CICOCRSA3	uart/basic/include/s3c2440.h	162;"	d
+CICOCRSA4	uart/basic/include/s3c2440.h	163;"	d
+CICOCTRL	uart/basic/include/s3c2440.h	165;"	d
+CICOSCCTRL	uart/basic/include/s3c2440.h	168;"	d
+CICOSCPREDST	uart/basic/include/s3c2440.h	167;"	d
+CICOSCPRERATIO	uart/basic/include/s3c2440.h	166;"	d
+CICOSTATUS	uart/basic/include/s3c2440.h	170;"	d
+CICOTAREA	uart/basic/include/s3c2440.h	169;"	d
+CICOTRGFMT	uart/basic/include/s3c2440.h	164;"	d
+CICOYSA1	uart/basic/include/s3c2440.h	152;"	d
+CICOYSA2	uart/basic/include/s3c2440.h	153;"	d
+CICOYSA3	uart/basic/include/s3c2440.h	154;"	d
+CICOYSA4	uart/basic/include/s3c2440.h	155;"	d
+CIGCTRL	uart/basic/include/s3c2440.h	151;"	d
+CIIMGCPT	uart/basic/include/s3c2440.h	182;"	d
+CIPRCLRSA1	uart/basic/include/s3c2440.h	171;"	d
+CIPRCLRSA2	uart/basic/include/s3c2440.h	172;"	d
+CIPRCLRSA3	uart/basic/include/s3c2440.h	173;"	d
+CIPRCLRSA4	uart/basic/include/s3c2440.h	174;"	d
+CIPRCTRL	uart/basic/include/s3c2440.h	176;"	d
+CIPRSCCTRL	uart/basic/include/s3c2440.h	179;"	d
+CIPRSCPREDST	uart/basic/include/s3c2440.h	178;"	d
+CIPRSCPRERATIO	uart/basic/include/s3c2440.h	177;"	d
+CIPRSTATUS	uart/basic/include/s3c2440.h	181;"	d
+CIPRTAREA	uart/basic/include/s3c2440.h	180;"	d
+CIPRTRGFMT	uart/basic/include/s3c2440.h	175;"	d
+CISRCFMT	uart/basic/include/s3c2440.h	149;"	d
+CIWDOFST	uart/basic/include/s3c2440.h	150;"	d
+CLKCON	uart/basic/include/s3c2440.h	105;"	d
+CLKDIVN	uart/basic/include/s3c2440.h	107;"	d
+CLKSLOW	uart/basic/include/s3c2440.h	106;"	d
+DCDST0	uart/basic/include/s3c2440.h	71;"	d
+DCDST1	uart/basic/include/s3c2440.h	80;"	d
+DCDST2	uart/basic/include/s3c2440.h	89;"	d
+DCDST3	uart/basic/include/s3c2440.h	98;"	d
+DCLKCON	uart/basic/include/s3c2440.h	331;"	d
+DCON0	uart/basic/include/s3c2440.h	68;"	d
+DCON1	uart/basic/include/s3c2440.h	77;"	d
+DCON2	uart/basic/include/s3c2440.h	86;"	d
+DCON3	uart/basic/include/s3c2440.h	95;"	d
+DCSRC0	uart/basic/include/s3c2440.h	70;"	d
+DCSRC1	uart/basic/include/s3c2440.h	79;"	d
+DCSRC2	uart/basic/include/s3c2440.h	88;"	d
+DCSRC3	uart/basic/include/s3c2440.h	97;"	d
+DIDST0	uart/basic/include/s3c2440.h	66;"	d
+DIDST1	uart/basic/include/s3c2440.h	75;"	d
+DIDST2	uart/basic/include/s3c2440.h	84;"	d
+DIDST3	uart/basic/include/s3c2440.h	93;"	d
+DIDSTC0	uart/basic/include/s3c2440.h	67;"	d
+DIDSTC1	uart/basic/include/s3c2440.h	76;"	d
+DIDSTC2	uart/basic/include/s3c2440.h	85;"	d
+DIDSTC3	uart/basic/include/s3c2440.h	94;"	d
+DISRC0	uart/basic/include/s3c2440.h	64;"	d
+DISRC1	uart/basic/include/s3c2440.h	73;"	d
+DISRC2	uart/basic/include/s3c2440.h	82;"	d
+DISRC3	uart/basic/include/s3c2440.h	91;"	d
+DISRCC0	uart/basic/include/s3c2440.h	65;"	d
+DISRCC1	uart/basic/include/s3c2440.h	74;"	d
+DISRCC2	uart/basic/include/s3c2440.h	83;"	d
+DISRCC3	uart/basic/include/s3c2440.h	92;"	d
+DITHMODE	uart/basic/include/s3c2440.h	122;"	d
+DMASKTRIG0	uart/basic/include/s3c2440.h	72;"	d
+DMASKTRIG1	uart/basic/include/s3c2440.h	81;"	d
+DMASKTRIG2	uart/basic/include/s3c2440.h	90;"	d
+DMASKTRIG3	uart/basic/include/s3c2440.h	99;"	d
+DSTAT0	uart/basic/include/s3c2440.h	69;"	d
+DSTAT1	uart/basic/include/s3c2440.h	78;"	d
+DSTAT2	uart/basic/include/s3c2440.h	87;"	d
+DSTAT3	uart/basic/include/s3c2440.h	96;"	d
+EINTFLT0	uart/basic/include/s3c2440.h	335;"	d
+EINTFLT1	uart/basic/include/s3c2440.h	336;"	d
+EINTFLT2	uart/basic/include/s3c2440.h	337;"	d
+EINTFLT3	uart/basic/include/s3c2440.h	338;"	d
+EINTMASK	uart/basic/include/s3c2440.h	339;"	d
+EINTPEND	uart/basic/include/s3c2440.h	340;"	d
+EP0_CSR	uart/basic/include/s3c2440.h	246;"	d
+EP0_FIFO	uart/basic/include/s3c2440.h	254;"	d
+EP1_DMA_CON	uart/basic/include/s3c2440.h	259;"	d
+EP1_DMA_FIFO	uart/basic/include/s3c2440.h	261;"	d
+EP1_DMA_TTC_H	uart/basic/include/s3c2440.h	264;"	d
+EP1_DMA_TTC_L	uart/basic/include/s3c2440.h	262;"	d
+EP1_DMA_TTC_M	uart/basic/include/s3c2440.h	263;"	d
+EP1_DMA_UNIT	uart/basic/include/s3c2440.h	260;"	d
+EP1_FIFO	uart/basic/include/s3c2440.h	255;"	d
+EP2_DMA_CON	uart/basic/include/s3c2440.h	265;"	d
+EP2_DMA_FIFO	uart/basic/include/s3c2440.h	267;"	d
+EP2_DMA_TTC_H	uart/basic/include/s3c2440.h	270;"	d
+EP2_DMA_TTC_L	uart/basic/include/s3c2440.h	268;"	d
+EP2_DMA_TTC_M	uart/basic/include/s3c2440.h	269;"	d
+EP2_DMA_UNIT	uart/basic/include/s3c2440.h	266;"	d
+EP2_FIFO	uart/basic/include/s3c2440.h	256;"	d
+EP3_DMA_CON	uart/basic/include/s3c2440.h	271;"	d
+EP3_DMA_FIFO	uart/basic/include/s3c2440.h	273;"	d
+EP3_DMA_TTC_H	uart/basic/include/s3c2440.h	276;"	d
+EP3_DMA_TTC_L	uart/basic/include/s3c2440.h	274;"	d
+EP3_DMA_TTC_M	uart/basic/include/s3c2440.h	275;"	d
+EP3_DMA_UNIT	uart/basic/include/s3c2440.h	272;"	d
+EP3_FIFO	uart/basic/include/s3c2440.h	257;"	d
+EP4_DMA_CON	uart/basic/include/s3c2440.h	277;"	d
+EP4_DMA_FIFO	uart/basic/include/s3c2440.h	279;"	d
+EP4_DMA_TTC_H	uart/basic/include/s3c2440.h	282;"	d
+EP4_DMA_TTC_L	uart/basic/include/s3c2440.h	280;"	d
+EP4_DMA_TTC_M	uart/basic/include/s3c2440.h	281;"	d
+EP4_DMA_UNIT	uart/basic/include/s3c2440.h	278;"	d
+EP4_FIFO	uart/basic/include/s3c2440.h	258;"	d
+EP_INT_EN_REG	uart/basic/include/s3c2440.h	241;"	d
+EP_INT_REG	uart/basic/include/s3c2440.h	239;"	d
+EXTINT0	uart/basic/include/s3c2440.h	332;"	d
+EXTINT1	uart/basic/include/s3c2440.h	333;"	d
+EXTINT2	uart/basic/include/s3c2440.h	334;"	d
+FRAME_NUM1_REG	uart/basic/include/s3c2440.h	243;"	d
+FRAME_NUM2_REG	uart/basic/include/s3c2440.h	244;"	d
+FUNC_ADDR_REG	uart/basic/include/s3c2440.h	237;"	d
+GPACON	uart/basic/include/s3c2440.h	304;"	d
+GPADAT	uart/basic/include/s3c2440.h	305;"	d
+GPBCON	clk/led.c	1;"	d	file:
+GPBCON	clk/no_pll/led.c	1;"	d	file:
+GPBCON	uart/basic/include/s3c2440.h	306;"	d
+GPBCON	uart/basic/led.c	1;"	d	file:
+GPBDAT	clk/led.c	2;"	d	file:
+GPBDAT	clk/no_pll/led.c	2;"	d	file:
+GPBDAT	uart/basic/include/s3c2440.h	307;"	d
+GPBDAT	uart/basic/led.c	2;"	d	file:
+GPBUP	uart/basic/include/s3c2440.h	308;"	d
+GPCCON	uart/basic/include/s3c2440.h	309;"	d
+GPCDAT	uart/basic/include/s3c2440.h	310;"	d
+GPCUP	uart/basic/include/s3c2440.h	311;"	d
+GPDCON	uart/basic/include/s3c2440.h	312;"	d
+GPDDA1T	uart/basic/include/s3c2440.h	313;"	d
+GPDUP	uart/basic/include/s3c2440.h	314;"	d
+GPECON	uart/basic/include/s3c2440.h	315;"	d
+GPEDAT	uart/basic/include/s3c2440.h	316;"	d
+GPEUP	uart/basic/include/s3c2440.h	317;"	d
+GPFCON	uart/basic/include/s3c2440.h	318;"	d
+GPFDAT	uart/basic/include/s3c2440.h	319;"	d
+GPFUP	uart/basic/include/s3c2440.h	320;"	d
+GPGCON	uart/basic/include/s3c2440.h	321;"	d
+GPGDAT	uart/basic/include/s3c2440.h	322;"	d
+GPGUP	uart/basic/include/s3c2440.h	323;"	d
+GPHCON	uart/basic/include/s3c2440.h	324;"	d
+GPHDAT	uart/basic/include/s3c2440.h	325;"	d
+GPHUP	uart/basic/include/s3c2440.h	326;"	d
+GPJCON	uart/basic/include/s3c2440.h	327;"	d
+GPJDAT	uart/basic/include/s3c2440.h	328;"	d
+GPJUP	uart/basic/include/s3c2440.h	329;"	d
+GREENLUT	uart/basic/include/s3c2440.h	120;"	d
+GSTATUS0	uart/basic/include/s3c2440.h	341;"	d
+GSTATUS1	uart/basic/include/s3c2440.h	342;"	d
+GSTATUS2	uart/basic/include/s3c2440.h	343;"	d
+GSTATUS3	uart/basic/include/s3c2440.h	344;"	d
+GSTATUS4	uart/basic/include/s3c2440.h	345;"	d
+HcBulkCurrentED	uart/basic/include/s3c2440.h	40;"	d
+HcBulkHeadED	uart/basic/include/s3c2440.h	39;"	d
+HcCommonStatus	uart/basic/include/s3c2440.h	31;"	d
+HcControl	uart/basic/include/s3c2440.h	30;"	d
+HcControlCurrentED	uart/basic/include/s3c2440.h	38;"	d
+HcControlHeadED	uart/basic/include/s3c2440.h	37;"	d
+HcDoneHead	uart/basic/include/s3c2440.h	41;"	d
+HcFmNumber	uart/basic/include/s3c2440.h	44;"	d
+HcFmRemaining	uart/basic/include/s3c2440.h	43;"	d
+HcHCCA	uart/basic/include/s3c2440.h	35;"	d
+HcInterruptDisable	uart/basic/include/s3c2440.h	34;"	d
+HcInterruptEnable	uart/basic/include/s3c2440.h	33;"	d
+HcInterruptStatus	uart/basic/include/s3c2440.h	32;"	d
+HcLSThreshold	uart/basic/include/s3c2440.h	46;"	d
+HcPeriodCuttentED	uart/basic/include/s3c2440.h	36;"	d
+HcPeriodicStart	uart/basic/include/s3c2440.h	45;"	d
+HcRevision	uart/basic/include/s3c2440.h	29;"	d
+HcRhDescriptorA	uart/basic/include/s3c2440.h	47;"	d
+HcRhDescriptorB	uart/basic/include/s3c2440.h	48;"	d
+HcRhPortStatus1	uart/basic/include/s3c2440.h	50;"	d
+HcRhPortStatus2	uart/basic/include/s3c2440.h	51;"	d
+HcRhStatus	uart/basic/include/s3c2440.h	49;"	d
+HcRmInterval	uart/basic/include/s3c2440.h	42;"	d
+IICADD	uart/basic/include/s3c2440.h	292;"	d
+IICCON	uart/basic/include/s3c2440.h	290;"	d
+IICDS	uart/basic/include/s3c2440.h	293;"	d
+IICLC	uart/basic/include/s3c2440.h	294;"	d
+IICSTAT	uart/basic/include/s3c2440.h	291;"	d
+IISCON	uart/basic/include/s3c2440.h	297;"	d
+IISFCON	uart/basic/include/s3c2440.h	300;"	d
+IISFIFO	uart/basic/include/s3c2440.h	301;"	d
+IISMOD	uart/basic/include/s3c2440.h	298;"	d
+IISPSR	uart/basic/include/s3c2440.h	299;"	d
+INDEX_REG	uart/basic/include/s3c2440.h	245;"	d
+INTMOD	uart/basic/include/s3c2440.h	55;"	d
+INTMSK	uart/basic/include/s3c2440.h	56;"	d
+INTOFFSET	uart/basic/include/s3c2440.h	59;"	d
+INTPND	uart/basic/include/s3c2440.h	58;"	d
+INTSUBMSK	uart/basic/include/s3c2440.h	61;"	d
+IN_CSR1_REG	uart/basic/include/s3c2440.h	247;"	d
+IN_CSR2_REG	uart/basic/include/s3c2440.h	248;"	d
+Init_UART1	uart/basic/uart.c	/^void Init_UART1(){$/;"	f
+LCDCON1	uart/basic/include/s3c2440.h	111;"	d
+LCDCON2	uart/basic/include/s3c2440.h	112;"	d
+LCDCON3	uart/basic/include/s3c2440.h	113;"	d
+LCDCON4	uart/basic/include/s3c2440.h	114;"	d
+LCDCON5	uart/basic/include/s3c2440.h	115;"	d
+LCDINTMSK	uart/basic/include/s3c2440.h	126;"	d
+LCDINTPND	uart/basic/include/s3c2440.h	124;"	d
+LCDSADDR1	uart/basic/include/s3c2440.h	116;"	d
+LCDSADDR2	uart/basic/include/s3c2440.h	117;"	d
+LCDSADDR3	uart/basic/include/s3c2440.h	118;"	d
+LCDSRCPND	uart/basic/include/s3c2440.h	125;"	d
+LOCKTIME	uart/basic/include/s3c2440.h	102;"	d
+MAXP_REG	uart/basic/include/s3c2440.h	249;"	d
+MISCCR	uart/basic/include/s3c2440.h	330;"	d
+MPLLCON	uart/basic/include/s3c2440.h	103;"	d
+MRSRB6	uart/basic/include/s3c2440.h	25;"	d
+MRSRB7	uart/basic/include/s3c2440.h	26;"	d
+MSLCON	uart/basic/include/s3c2440.h	346;"	d
+NFADDR	uart/basic/include/s3c2440.h	134;"	d
+NFCMD	uart/basic/include/s3c2440.h	133;"	d
+NFCONF	uart/basic/include/s3c2440.h	131;"	d
+NFCONT	uart/basic/include/s3c2440.h	132;"	d
+NFDATA	uart/basic/include/s3c2440.h	135;"	d
+NFEBLK	uart/basic/include/s3c2440.h	146;"	d
+NFESTAT0	uart/basic/include/s3c2440.h	140;"	d
+NFESTAT1	uart/basic/include/s3c2440.h	141;"	d
+NFMECC0	uart/basic/include/s3c2440.h	136;"	d
+NFMECC0_STATUS	uart/basic/include/s3c2440.h	142;"	d
+NFMECC1	uart/basic/include/s3c2440.h	137;"	d
+NFMECC1_STATUS	uart/basic/include/s3c2440.h	143;"	d
+NFSBLK	uart/basic/include/s3c2440.h	145;"	d
+NFSECC	uart/basic/include/s3c2440.h	138;"	d
+NFSECC_STATUS	uart/basic/include/s3c2440.h	144;"	d
+NFSTAT	uart/basic/include/s3c2440.h	139;"	d
+OUT_CSR1_REG	uart/basic/include/s3c2440.h	250;"	d
+OUT_CSR2_REG	uart/basic/include/s3c2440.h	251;"	d
+OUT_FIFO_CNT1_REG	uart/basic/include/s3c2440.h	252;"	d
+OUT_FIFO_CNT2_REG	uart/basic/include/s3c2440.h	253;"	d
+PRIORITY	uart/basic/include/s3c2440.h	57;"	d
+PWR_REG	uart/basic/include/s3c2440.h	238;"	d
+REDLUT	uart/basic/include/s3c2440.h	119;"	d
+REFRESH	uart/basic/include/s3c2440.h	23;"	d
+RTCALM	uart/basic/include/s3c2440.h	351;"	d
+RTCCON	uart/basic/include/s3c2440.h	349;"	d
+SDIBSIZE	uart/basic/include/s3c2440.h	399;"	d
+SDICARG	uart/basic/include/s3c2440.h	391;"	d
+SDICCON	uart/basic/include/s3c2440.h	392;"	d
+SDICON	uart/basic/include/s3c2440.h	389;"	d
+SDICSTA	uart/basic/include/s3c2440.h	393;"	d
+SDIDAT	uart/basic/include/s3c2440.h	405;"	d
+SDIDCNT	uart/basic/include/s3c2440.h	401;"	d
+SDIDCON	uart/basic/include/s3c2440.h	400;"	d
+SDIDSTA	uart/basic/include/s3c2440.h	402;"	d
+SDIDTIMER	uart/basic/include/s3c2440.h	398;"	d
+SDIFSTA	uart/basic/include/s3c2440.h	403;"	d
+SDIIMSK	uart/basic/include/s3c2440.h	404;"	d
+SDIPRE	uart/basic/include/s3c2440.h	390;"	d
+SDIRSP0	uart/basic/include/s3c2440.h	394;"	d
+SDIRSP1	uart/basic/include/s3c2440.h	395;"	d
+SDIRSP2	uart/basic/include/s3c2440.h	396;"	d
+SDIRSP3	uart/basic/include/s3c2440.h	397;"	d
+SPCON0	uart/basic/include/s3c2440.h	375;"	d
+SPCON1	uart/basic/include/s3c2440.h	381;"	d
+SPPIN0	uart/basic/include/s3c2440.h	377;"	d
+SPPIN1	uart/basic/include/s3c2440.h	383;"	d
+SPPRE0	uart/basic/include/s3c2440.h	378;"	d
+SPPRE1	uart/basic/include/s3c2440.h	384;"	d
+SPRDAT0	uart/basic/include/s3c2440.h	380;"	d
+SPRDAT1	uart/basic/include/s3c2440.h	386;"	d
+SPSTA0	uart/basic/include/s3c2440.h	376;"	d
+SPSTA1	uart/basic/include/s3c2440.h	382;"	d
+SPTDAT0	uart/basic/include/s3c2440.h	379;"	d
+SPTDAT1	uart/basic/include/s3c2440.h	385;"	d
+SRCPND	uart/basic/include/s3c2440.h	54;"	d
+SUBSRCPND	uart/basic/include/s3c2440.h	60;"	d
+SendChar	uart/basic/uart.c	/^void SendChar(char c){$/;"	f
+TCFG0	uart/basic/include/s3c2440.h	218;"	d
+TCFG1	uart/basic/include/s3c2440.h	219;"	d
+TCMPB0	uart/basic/include/s3c2440.h	222;"	d
+TCMPB1	uart/basic/include/s3c2440.h	225;"	d
+TCMPB2	uart/basic/include/s3c2440.h	228;"	d
+TCMPB3	uart/basic/include/s3c2440.h	231;"	d
+TCNTB0	uart/basic/include/s3c2440.h	221;"	d
+TCNTB1	uart/basic/include/s3c2440.h	224;"	d
+TCNTB2	uart/basic/include/s3c2440.h	227;"	d
+TCNTB3	uart/basic/include/s3c2440.h	230;"	d
+TCNTB4	uart/basic/include/s3c2440.h	233;"	d
+TCNTO0	uart/basic/include/s3c2440.h	223;"	d
+TCNTO1	uart/basic/include/s3c2440.h	226;"	d
+TCNTO2	uart/basic/include/s3c2440.h	229;"	d
+TCNTO3	uart/basic/include/s3c2440.h	232;"	d
+TCNTO4	uart/basic/include/s3c2440.h	234;"	d
+TCON	uart/basic/include/s3c2440.h	220;"	d
+TCONSEL	uart/basic/include/s3c2440.h	127;"	d
+TICNT	uart/basic/include/s3c2440.h	350;"	d
+TPAL	uart/basic/include/s3c2440.h	123;"	d
+UBRDIV0	uart/basic/include/s3c2440.h	195;"	d
+UBRDIV1	uart/basic/include/s3c2440.h	206;"	d
+UBRDIV2	uart/basic/include/s3c2440.h	215;"	d
+UCON0	uart/basic/include/s3c2440.h	186;"	d
+UCON1	uart/basic/include/s3c2440.h	197;"	d
+UCON2	uart/basic/include/s3c2440.h	208;"	d
+UERSTAT0	uart/basic/include/s3c2440.h	190;"	d
+UERSTAT1	uart/basic/include/s3c2440.h	201;"	d
+UERSTAT2	uart/basic/include/s3c2440.h	211;"	d
+UFCON0	uart/basic/include/s3c2440.h	187;"	d
+UFCON1	uart/basic/include/s3c2440.h	198;"	d
+UFCON2	uart/basic/include/s3c2440.h	209;"	d
+UFSTAT0	uart/basic/include/s3c2440.h	191;"	d
+UFSTAT1	uart/basic/include/s3c2440.h	202;"	d
+UFSTAT2	uart/basic/include/s3c2440.h	212;"	d
+ULCON0	uart/basic/include/s3c2440.h	185;"	d
+ULCON1	uart/basic/include/s3c2440.h	196;"	d
+ULCON2	uart/basic/include/s3c2440.h	207;"	d
+UMCON0	uart/basic/include/s3c2440.h	188;"	d
+UMCON1	uart/basic/include/s3c2440.h	199;"	d
+UMSTAT0	uart/basic/include/s3c2440.h	192;"	d
+UMSTAT1	uart/basic/include/s3c2440.h	203;"	d
+UPLLCON	uart/basic/include/s3c2440.h	104;"	d
+URXH0	uart/basic/include/s3c2440.h	194;"	d
+URXH1	uart/basic/include/s3c2440.h	205;"	d
+URXH2	uart/basic/include/s3c2440.h	214;"	d
+USB_INT_EN_REG	uart/basic/include/s3c2440.h	242;"	d
+USB_INT_REG	uart/basic/include/s3c2440.h	240;"	d
+UTRSTAT0	uart/basic/include/s3c2440.h	189;"	d
+UTRSTAT1	uart/basic/include/s3c2440.h	200;"	d
+UTRSTAT2	uart/basic/include/s3c2440.h	210;"	d
+UTXH0	uart/basic/include/s3c2440.h	193;"	d
+UTXH1	uart/basic/include/s3c2440.h	204;"	d
+UTXH2	uart/basic/include/s3c2440.h	213;"	d
+WTCNT	uart/basic/include/s3c2440.h	287;"	d
+WTCON	uart/basic/include/s3c2440.h	285;"	d
+WTDAT	uart/basic/include/s3c2440.h	286;"	d
+__REG	uart/basic/include/s3c2440.h	10;"	d
+__REG_BYTE	uart/basic/include/s3c2440.h	11;"	d
+__S3C2440_SOC_H	uart/basic/include/s3c2440.h	8;"	d
+_start	clk/no_pll/start.S	/^_start:$/;"	l
+_start	clk/start.S	/^_start:$/;"	l
+_start	led/asm/led_on.s	/^_start:$/;"	l
+_start	led/c/start.S	/^_start:$/;"	l
+_start	uart/basic/start.S	/^_start:$/;"	l
+delay	clk/led.c	/^void delay(int tt){$/;"	f
+delay	clk/no_pll/led.c	/^void delay(int tt){$/;"	f
+delay	uart/basic/led.c	/^void delay(int tt){$/;"	f
+delay	uart/basic/main.c	/^void delay(int tt){$/;"	f
+dep_files	clk/Makefile	/^dep_files := $(patsubst %, .%.d, $(objs))$/;"	m
+dep_files	clk/Makefile	/^dep_files := $(wildcard $(dep_files))$/;"	m
+dep_files	clk/no_pll/Makefile	/^dep_files := $(patsubst %, .%.d, $(objs))$/;"	m
+dep_files	clk/no_pll/Makefile	/^dep_files := $(wildcard $(dep_files))$/;"	m
+dep_files	makefile/Makefile	/^dep_files := $(patsubst %, .%.d, $(objs))$/;"	m
+dep_files	makefile/Makefile	/^dep_files := $(wildcard $(dep_files))$/;"	m
+dep_files	pointer/Makefile	/^dep_files := $(patsubst %, .%.d, $(objs))$/;"	m
+dep_files	pointer/Makefile	/^dep_files := $(wildcard $(dep_files))$/;"	m
+dep_files	uart/basic/Makefile	/^dep_files := $(patsubst %, .%.d, $(objs))$/;"	m
+dep_files	uart/basic/Makefile	/^dep_files := $(wildcard $(dep_files))$/;"	m
+func_b	makefile/b.c	/^void func_b(){$/;"	f
+func_c	makefile/c.c	/^void func_c(){$/;"	f
+halt	clk/no_pll/start.S	/^halt:$/;"	l
+halt	clk/start.S	/^halt:$/;"	l
+halt	led/asm/led_on.s	/^halt:$/;"	l
+halt	led/c/start.S	/^halt:$/;"	l
+halt	uart/basic/start.S	/^halt:$/;"	l
+main	clk/led.c	/^int main(){$/;"	f
+main	clk/no_pll/led.c	/^int main(){$/;"	f
+main	led/c/led.c	/^int main(){$/;"	f
+main	makefile/a.c	/^int main(){$/;"	f
+main	pointer/a.c	/^int main(){$/;"	f
+main	uart/basic/led.c	/^int main(){$/;"	f
+main	uart/basic/main.c	/^int main(){$/;"	f
+objs	clk/Makefile	/^objs = start.o led.o$/;"	m
+objs	clk/no_pll/Makefile	/^objs = start.o led.o$/;"	m
+objs	makefile/Makefile	/^objs = a.o b.o c.o$/;"	m
+objs	pointer/Makefile	/^objs = a.o$/;"	m
+objs	uart/basic/Makefile	/^objs = start.o main.o uart.o$/;"	m
+test0	pointer/a.c	/^void test0(){$/;"	f
+test1	pointer/a.c	/^void test1(){$/;"	f
+test2	pointer/a.c	/^void test2(){$/;"	f
+test3	pointer/a.c	/^void test3(){$/;"	f
+test4	pointer/a.c	/^void test4(){$/;"	f

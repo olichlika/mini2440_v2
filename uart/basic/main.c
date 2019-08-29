@@ -3,10 +3,14 @@
 void delay(int tt);
 
 int main(){
+	char c;
+
 	Init_UART1();
 	while(1){
-		SendChar('A');
-		delay(10000);
+		// SendChar('C');
+		// delay(10000);
+		c = ReciveChar();
+		SendChar(c);
 	}
 	return 0;
 }
