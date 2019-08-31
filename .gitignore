@@ -1,2 +1,2 @@
-.DS_Store
-@eaDir
+**/*.DS_Store
+**/*@eaDir
