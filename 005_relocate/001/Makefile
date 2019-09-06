@@ -7,7 +7,7 @@ dep_files := $(wildcard $(dep_files))
 CFLAGS = -Iinclude
 
 main.bin : $(objs)
-	arm-linux-ld -Ttext 0x00000000 $^ -o main.elf
+	arm-linux-ld -Ttext 0x0 -Tdata 0x800 $^ -o main.elf
 	arm-linux-objcopy -O binary -S main.elf $@
 	arm-linux-objdump -D main.elf > main.dis
 
@@ -22,7 +22,7 @@ endif
 	arm-linux-gcc -c -o $@ $^
 
 clean:
-	rm *.o *.elf *.bin $(dep_files) *.dis
+	rm -rf *.o *.elf *.bin $(dep_files) *.dis
 
 distclean:
 	rm $(dep_files)
