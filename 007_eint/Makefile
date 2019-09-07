@@ -1,4 +1,4 @@
-objs = start.o main.o uart.o sdram.o exception.o
+objs = start.o main.o uart.o sdram.o exception.o interrupt.o
 
 dep_files := $(patsubst %, .%.d, $(objs))
 

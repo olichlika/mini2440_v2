@@ -1,9 +1,20 @@
 .text
 .global _start
 _start:
-	b reset
-	ldr pc, =do_und
-
+	b reset //0x00
+	ldr pc, und_addr //0x04
+	b halt //0x08
+	b halt //0x0c
+	b halt //0x10
+	b halt //0x14
+	ldr pc, irq_addr //0x18
+	
+und_addr:
+	.word do_und
+	
+irq_addr:
+	.word do_irq
+	
 do_und:
 	//设置栈
 	ldr sp, =0x34000000
@@ -22,6 +33,19 @@ do_und:
 und_string:
 	.string "undefined instruction exception"
 .align 4 //保证4字节对齐
+
+do_irq:
+	//设置栈
+	ldr sp, =0x33d00000
+	//保存现场
+	sub lr, lr, #4
+	stmdb sp!, {r0-r12, lr}
+	
+	//处理异常
+	bl handle_irq_c
+	
+	//恢复现场
+	ldmia sp!, {r0-r12, pc}^ 
 	
 reset:
 	//****关闭看门狗****
@@ -85,6 +109,15 @@ clean:
 	add r1, r1, #4
 	cmp r1, r2
 	ble clean
+	
+	//切换到usr模式
+	mrs r0, cpsr         /* 读出cpsr */
+	bic r0, r0, #0xf     /* 修改M4-M0为0b10000, 进入usr模式 */
+	bic r0, r0, #(1<<7)  /* 清除I位, 使能中断 */
+	msr cpsr, r0
+
+	/* 设置 sp_usr */
+	ldr sp, =0x33f00000
 	
 	ldr pc, =sdram //绝对跳转，到sdram中
 sdram:

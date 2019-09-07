@@ -8,7 +8,7 @@ int g_A = 0;
 
 int main(){
 
-	//Init_UART0();
+	Init_EINT();
 	SendString("This is Mini2440!\n\r");
 	
 	SendString("g_A = ");
